@@ -346,6 +346,11 @@ textarea {
     padding-top: 6rem;
 }
 
+.no{
+    display: none;
+}
+
+
 @media screen and (max-width: 768px){
     .nav-bar{
        
@@ -461,12 +466,8 @@ textarea {
     .space{
         margin: 10px;
     }
-    .fa-bars{
-        width: 30px;
-        height: 30px;
-        background-color: #fff;
-        border: none;
-        border-color: transparent;
-    }
     
+    .no{
+        display: block;
+    }
 }
